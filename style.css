@@ -1,0 +1,21 @@
+.entryBody a {
+    color: #00f !important;
+    text-decoration: underline !important;
+}
+
+.topWikiWidget {
+    display: none !important;
+}
+
+*.action {
+    color: #00f !important;
+}
+
+.entryBody {
+    line-height: 2em !important;
+    font-size: 16px !important;
+}
+
+.pageActionBar {
+    display: none !important;
+}
