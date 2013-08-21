@@ -1,5 +1,5 @@
 .entryBody a {
-    color: #00f !important;
+    color: #44e !important;
     text-decoration: underline !important;
 }
 
@@ -8,7 +8,7 @@
 }
 
 *.action {
-    color: #00f !important;
+    color: #44e !important;
 }
 
 .entryBody {
@@ -19,3 +19,11 @@
 .pageActionBar {
     display: none !important;
 }
+
+.categoryUnreadCountHint > span {
+    color: #B4B3B2 !important;
+}
+
+.websiteCallForAction {
+    display: none !important;
+};
