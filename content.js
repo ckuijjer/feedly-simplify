@@ -1,7 +1,5 @@
 (function() {
-    $(function() {
-        $(document).keypress(openInBackground);
-    });
+    document.addEventListener('keypress', openInBackground);
 
     function openInBackground(e) {
         if (!shortcutPressed(e)) return;
@@ -19,8 +17,7 @@
     }
 
     function getUrl() {
-        var el = $('#timeline .entryHolder a.entryTitle');
-        var url = el.attr('href');
-        return url;
+        var el = document.querySelector('#timeline .entryHolder a.entryTitle');
+        return el.href;
     }
 })();

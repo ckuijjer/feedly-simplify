@@ -3,12 +3,12 @@
 
   "name": "Feedly-Simplify",
   "description": "This extension restyles/simplifies the interface of Feedly and add the shift+B shortcut to open an rss item an a new background tab",
-  "version": "1.0",
+  "version": "1.1",
   "content_scripts": [
       {
           "matches": [ "http://cloud.feedly.com/", "https://cloud.feedly.com/" ],
           "css": [ "style.css" ],
-          "js": [ "jquery-2.0.3.js", "content.js" ]
+          "js": [ "content.js" ]
       }
   ],
   "permissions": [
