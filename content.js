@@ -2,6 +2,7 @@
     document.addEventListener('keypress', openInBackground);
 
     function openInBackground(e) {
+        console.log('openInBackground');
         if (!shortcutPressed(e)) return;
 
         var url = getUrl();

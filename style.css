@@ -1,6 +1,10 @@
 .entryBody a {
     color: #44e !important;
     text-decoration: underline !important;
+    border-bottom: none !important;
+}
+.entryBody a:visited {
+    border-bottom: none !important;
 }
 
 .topWikiWidget {
@@ -12,8 +16,9 @@
 }
 
 .entryBody {
-    line-height: 2em !important;
-    font-size: 16px !important;
+    font-family: Palatino, Georgia, Times, "Times New Roman" !important;
+    line-height: 1.8em !important;
+    font-size: 18px !important;
 }
 
 .pageActionBar {
