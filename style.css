@@ -20,6 +20,16 @@
     line-height: 1.8em !important;
     font-size: 18px !important;
 }
+.entryTitle {
+    font-family: Palatino, Georgia, Times, "Times New Roman" !important;
+    line-height: 36px !important;
+    font-size: 32px !important;    
+}
+.entryHeader .metadata {
+    font-family: Palatino, Georgia, Times, "Times New Roman" !important;
+    font-size: 12px !important; 
+    color: #999;   
+}
 
 .pageActionBar {
     display: none !important;
