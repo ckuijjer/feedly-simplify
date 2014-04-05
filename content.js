@@ -18,7 +18,7 @@
     }
 
     function getUrl() {
-        var el = document.querySelector('#timeline .entryHolder a.entryTitle');
+        var el = document.querySelector('.entryHolder a.entryTitle');
         return el.href;
     }
 })();

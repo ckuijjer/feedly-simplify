@@ -31,6 +31,22 @@
     color: #999;   
 }
 
+.entryHolder, 
+.inlineFrame, 
+.inlineFrame .selectedEntry  {
+    background: #fffff9 !important;
+}
+
+.area,
+#floatingBar {
+    background: #fffff0 !important;
+}
+
+#feedlyTabs,
+#fixedProfile {
+    background: #fbfbe9 !important;
+}
+
 .pageActionBar {
     display: none !important;
 }
