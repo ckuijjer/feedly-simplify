@@ -18,7 +18,7 @@
     }
 
     function getUrl() {
-        var el = document.querySelector('.entryHolder a.entryTitle');
+        var el = document.querySelector('a.entryTitle');
         return el.href;
     }
 })();

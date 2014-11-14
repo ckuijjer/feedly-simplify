@@ -31,15 +31,15 @@
     color: #999;   
 }
 
-.entryHolder, 
+.entryholder, 
 .inlineFrame, 
-.inlineFrame .selectedEntry  {
+.selectedEntry {
     background: #fffff9 !important;
 }
 
 .area,
 #floatingBar {
-    background: #fffff0 !important;
+    background: #fffff6 !important;
 }
 
 #feedlyTabs,
@@ -57,4 +57,9 @@
 
 .websiteCallForAction {
     display: none !important;
-};
+}
+
+.headerInfo {
+    background-color: #fffff9 !important;
+    border-bottom: none !important;
+}
