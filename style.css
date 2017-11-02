@@ -7,10 +7,6 @@
     border-bottom: none !important;
 }
 
-.topWikiWidget {
-    display: none !important;
-}
-
 *.action {
     color: #44e !important;
 }
@@ -33,33 +29,25 @@
 
 .entryholder, 
 .inlineFrame, 
-.selectedEntry {
+.selectedEntry,
+.headerInfo {
     background: #fffff9 !important;
 }
 
 .area,
-#floatingBar {
+#floatingBar,
+#feedlyPageHolderFX,
+#searchBarFX,
+#headerBarFX header {
     background: #fffff6 !important;
 }
 
 #feedlyTabs,
-#fixedProfile {
+#fixedProfile,
+#addContentPlaceholderFX button {
     background: #fbfbe9 !important;
-}
-
-.pageActionBar {
-    display: none !important;
 }
 
 .categoryUnreadCountHint > span {
     color: #B4B3B2 !important;
-}
-
-.websiteCallForAction {
-    display: none !important;
-}
-
-.headerInfo {
-    background-color: #fffff9 !important;
-    border-bottom: none !important;
 }
